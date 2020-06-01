@@ -1,0 +1,7 @@
+class Config(object):
+    CLIENT_ID = "1234567" //ID приложения
+    CLIENT_SECRET = "D4r5KOB175peE4uvyUOE"  //Защищённый ключ
+
+
+class ProductionConfig(Config):
+    pass
